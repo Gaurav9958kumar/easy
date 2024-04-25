@@ -1,0 +1,216 @@
+.hotelListNavContainer {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  /* top: 92px; */
+  left: 0;
+  right: 0;
+  height: 92px;
+  background-color: #07adab;
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 30px; */
+  align-items: center;
+  justify-content: space-evenly;
+  /* padding: 20px 0px 20px 0px; */
+  /* border: 1px solid red; */
+  margin-top: 70px;
+}
+
+.hotelListNavContainer button {
+  padding: 15px 30px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  border: none;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 24.2px;
+  text-align: center;
+  color: #07adab;
+  /* border: 1px solid red; */
+}
+.sideNav::-webkit-scrollbar {
+  width: 0; /* Hide scrollbar */
+}
+.sideNav:hover::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+.sideNav {
+  position: fixed;
+  /* left: 0;
+  bottom: 0; */
+  overflow-y: scroll;
+  height: auto;
+  /* z-index: 1; */
+  background-color: #ffffff;
+  /* border: 1px solid red;
+  background-color: yellow; */
+  width: 230px;
+  height: 500px;
+  /* border: 1px solid red; */
+ 
+  box-shadow: rgba(1, 0, 0, 0.24) 0px 0px 2px;
+}
+.sidNavBox {
+  padding: 50px 20px 20px 15px;
+  /* margin-bottom: 100px; */
+}
+
+.selectFilterText {
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.26px;
+  text-align: left;
+  color: #07adab;
+  margin-bottom: 20px;
+}
+
+
+.checkBoxOptions {
+  text-align: left;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 41px;
+  text-align: left;
+  color: #000000;
+}
+
+/* list card start  */
+
+.hotelListCards {
+  width: 82%;
+  margin-left: auto;
+  /* margin-top: 40px; */
+  /* margin-top: -125px; */
+  /* border: 5px solid green; */
+  padding: 0px 20px 20px 20px;
+ 
+}
+
+.headingTextHotelList {
+  font-family: Inter;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42.36px;
+  text-align: left;
+  color: #07adab;
+  margin-bottom: 15px;
+  /* border: 1px solid red; */
+}
+
+.bookBtn {
+  text-align: right;
+}
+.bookBtn button:hover{
+  background-color: teal;
+}
+.bookBtn button {
+  background-color: #07adab;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.52px;
+  text-align: center;
+}
+
+.listBorder {
+  background-color: #d4d3d3;
+  width: 2px;
+  height: 270px;
+}
+
+.listCard {
+  border: 1px solid #d4d3d3;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.sImages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.bImage,
+.sImages {
+  width: 300px;
+}
+
+.villaName {
+  font-family: Gudea;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37.08px;
+  text-align: left;
+  color: #f1a20a;
+}
+
+.listDetails {
+  margin-left: 30px;
+  padding-right: 30px;
+  max-width: 493px;
+}
+
+.descSpan {
+  color: #07adab;
+}
+
+.desc {
+  font-family: Gudea;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 28.43px;
+  text-align: left;
+  color: #7f7f7f;
+}
+
+.listOptions {
+  font-family: Gudea;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 28.43px;
+  text-align: left;
+  color: #5ac04a;
+}
+
+.price {
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30.26px;
+}
+
+.loginToBookText {
+  font-family: Gudea;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18.54px;
+  text-align: left;
+  color: #07adab;
+}
+
+.rating {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width:1450px) {
+    .hotelListCards {
+        /* margin-top: 250px; */
+      }
+  }

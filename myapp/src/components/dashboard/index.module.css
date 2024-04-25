@@ -1,0 +1,209 @@
+.tripezyIcon {
+  height: 55px;
+  width: 99px;
+  /* border: 1px solid red; */
+}
+
+.dNavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #c9e5e7 0%, #f3f3e5 35%, #f3f3e5 100%);
+  /* padding: 12px 42px 12px 116px; */
+  padding-left: 116px;
+  padding-right: 42px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  /* border: 1px solid red; */
+  height: 75px;
+}
+
+.navOptions {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+.navOptions :first-child {
+  color: #07adab;
+  font-family: Gudea;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.9px;
+  text-align: center;
+  cursor: pointer;
+  /* border: 1px solid red; */
+}
+
+.navOptions .signUp {
+  color: #f1a20a;
+  font-family: Gudea;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.9px;
+  text-align: center;
+  cursor: pointer;
+  /* border: 1px solid red; */
+}
+
+/* navbar above */
+
+/* home page */
+
+.backgroundImage {
+  background-image: url("../../assets/image/backgroundImage.png");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* border: 1px solid red; */
+}
+
+.dashboardContainer {
+  position: relative;
+  width: 100%;
+  /* border: 1px solid red; */
+ display: flex;
+ flex-direction: column;
+ margin-top: -3px;
+ 
+}
+
+/* luxury section */
+
+.LuxurySectionContainer {
+  display: flex;
+  position: absolute;
+  /* border: 1px solid red; */
+  margin: auto;
+  height: 500px;
+  top: 350px;
+  left: 116px;
+  right: 116px;
+}
+
+.luxurySection {
+  font-family: Gudea;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49.44px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  color: #f1a20a;
+ 
+}
+
+.luxurySection span {
+  font-family: Gudea;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49.44px;
+  text-align: center;
+  
+}
+
+.cards {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.tripezyText {
+  width: 260px;
+  height: 172px;
+}
+
+.tripezyTextContainer {
+  margin-right: 108px;
+  width: 260px;
+}
+
+.villasCards {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  overflow: hidden;
+  width: 216px;
+}
+
+.villasCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 63px;
+}
+
+.villaName {
+  font-family: Gudea;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.9px;
+  text-align: center;
+  color: #f1a20a;
+  margin-bottom: 9px;
+}
+
+.villasImage {
+  width: 100%;
+}
+
+.villasDesc {
+  font-family: Gudea;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13.6px;
+  text-align: justify;
+  color: #000000;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.villaDetails {
+  padding: 5px;
+}
+
+.learnMoreBtn {
+  background: #07adab;
+  border: none;
+  color: #ffffff;
+  padding: 7.5px 17.5px;
+  border-radius: 25px;
+  margin: 12px;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+}
+
+@media only screen and (max-width: 550px) {
+  .LuxurySectionContainer {
+    left: 50px;
+    right: 50px;
+    border: 1px solid green;
+  }
+
+  .villasCardContainer {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .LuxurySectionContainer {
+    left: 16px;
+    right: 16px;
+    border: 1px solid green;
+  }
+  .villasCardContainer {
+    justify-content: center;
+  }
+}
