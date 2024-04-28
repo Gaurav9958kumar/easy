@@ -43,3 +43,4 @@ const Hotel = () => {
 
 export default Hotel;
 //hotel list page
+// hi
